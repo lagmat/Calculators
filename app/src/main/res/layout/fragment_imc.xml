@@ -51,13 +51,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Altura" />
+            android:hint="Altura" />
         <EditText
             android:id="@+id/edt_peso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Peso" />
+            android:hint="Peso" />
 
     </LinearLayout>
     <Button
@@ -74,7 +74,7 @@
     <ImageView
         android:id="@+id/img_img"
         android:layout_gravity="center_horizontal"
-        tools:src="@drawable/ic_imc_fat"
-        android:layout_width="90dp"
-        android:layout_height="90dp" />
+        android:src="@drawable/abaixo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
